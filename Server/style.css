@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    transition: all 0.1s ease;
+}
+
+.panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+    position: fixed;
+    background-color: #333333;
+    width: 100%;
+    margin-top: 0;
+    top: 0;
+    color: whitesmoke;
+}
+
+main {
+    margin-top: 150px;
+    height: 100%;
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto 15px;
+}

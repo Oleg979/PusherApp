@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Theme App</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="panel">
+            <div class="elem size">
+                <p>Font fize:</p>
+                <input type="number" value="16">
+            </div>
+            <div class="elem color">
+                <p>Font color:</p>
+                <input type="color">
+            </div>
+            <div class="elem back-color">
+                <p>Background color:</p>
+                <input type="color" value="#ffffff">
+            </div>
+            <div class="elem img">
+                <p>Image size, %:</p>
+                <input type="number" value="30">
+            </div>
+            <div class="elem font-family">
+                <p>Font family:</p>
+                <select>
+                    <option selected value="sans-serif">Sans-Serif</option>
+                    <option value="Andalus" style="font-family: Andalus">Andalus</option>
+                    <option value="Impact" style="font-family: Impact">Impact</option>
+                    <option value="Georgia" style="font-family: Georgia">Georgia</option>
+                    <option value="Consolas" style="font-family: Consolas">Consolas</option>
+                </select>
+            </div>
+            <div class="elem theme">
+                <p>Saved themes:</p>
+                <select>
+                    <option selected disabled value="none">Not selected</option>
+                </select>
+            </div>
+            <div class="elem save">
+                <p>Save this theme:</p>
+                <button>Save</button>
+            </div>
+        </div>
+        <main>
+            <h1>This is a header</h1>
+            <p>this is a parapraph</p>
+            <p>this is a parapraph</p>
+            <img src="./img1.jpeg" width="30%"/>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
